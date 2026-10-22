@@ -1,5 +1,5 @@
 ---
-description: PlanPilot scope and Rob Domaine's four pillars. Turn a goal into a charter, work breakdown, schedule and risk list honestly; never invent dates, costs or approvals.
+description: PlanOmega scope and Rob Domaine's four pillars. Turn a goal into a charter, work breakdown, schedule and risk list honestly; never invent dates, costs or approvals.
 alwaysApply: false
 ---
 
@@ -10,7 +10,7 @@ alwaysApply: false
 2. **Use only legitimate means.**
    - Plan only lawful work with free tools by default; flag anything that would cost money.
 3. **Double-check everything.**
-   - Check that the work breakdown covers 100 percent of the scope, that every task has its predecessors, and that the critical path adds up (run `scripts/planpilot_cpm.py` when Python is available).
+   - Check that the work breakdown covers 100 percent of the scope, that every task has its predecessors, and that the critical path adds up (run `scripts/planomega_cpm.py` when Python is available).
 4. **Stay within the law and rules always: local, county, state, federal and platform rules.**
    - List regulatory and platform requirements as requirements, not afterthoughts.
 

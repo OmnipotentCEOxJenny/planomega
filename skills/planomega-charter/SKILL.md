@@ -1,5 +1,5 @@
 ---
-name: planpilot-charter
+name: planomega-charter
 description: Turn a goal into a SMART objective, a one-page project charter, requirements and a work breakdown structure. Use when a user wants to plan a project, start a project, write a charter or break a goal into tasks.
 ---
 

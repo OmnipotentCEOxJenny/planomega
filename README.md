@@ -1,8 +1,8 @@
-# PlanPilot
+# PlanOmega
 
-PlanPilot helps your AI assistant turn a goal into a project plan you can actually follow. You say what you want to achieve and by when. It rewrites the goal so it can be measured, writes a one-page project charter, breaks the work into pieces, puts them in order on a schedule, shows which tasks cannot slip without delaying everything, and lists the risks with a plan for each. Why would you want this? Big goals feel overwhelming, and plans made in your head miss steps. A written plan shows what to do next, what could go wrong, and when you will be done. It's free.
+PlanOmega helps your AI assistant turn a goal into a project plan you can actually follow. You say what you want to achieve and by when. It rewrites the goal so it can be measured, writes a one-page project charter, breaks the work into pieces, puts them in order on a schedule, shows which tasks cannot slip without delaying everything, and lists the risks with a plan for each. Why would you want this? Big goals feel overwhelming, and plans made in your head miss steps. A written plan shows what to do next, what could go wrong, and when you will be done. It's free.
 
-![PlanPilot logo](assets/logo.png)
+![PlanOmega logo](assets/logo.png)
 
 ## Project status: done, pending, uncertain
 **Done**
@@ -19,7 +19,7 @@ PlanPilot helps your AI assistant turn a goal into a project plan you can actual
 3. Then ask: "Make the schedule and risk list."
 
 ## Installation
-Install from this repository: https://github.com/OmnipotentCEOxJenny/planpilot (Cursor plugin format: `.cursor-plugin/plugin.json`, `skills/`, `rules/`). Free. No API keys, no accounts, no paid services. The optional schedule helper needs only Python 3 (standard library).
+Install from this repository: https://github.com/OmnipotentCEOxJenny/planomega (Cursor plugin format: `.cursor-plugin/plugin.json`, `skills/`, `rules/`). Free. No API keys, no accounts, no paid services. The optional schedule helper needs only Python 3 (standard library).
 
 ## Testing
 1. `python3 tests/check_frontmatter.py` (needs PyYAML).
@@ -27,12 +27,12 @@ Install from this repository: https://github.com/OmnipotentCEOxJenny/planpilot (
 3. Compare with `examples/pluginpulse-v1.1/`.
 
 ## Search keywords
-PlanPilot, JennyEcho, OmnipotentCeo, planning, planner, charter, wbs, breakdown, schedule, scheduling, gantt, milestones, deadlines, risk, risks, mitigation, contingency, stakeholders, scope, objectives, smart, deliverables, tasks, dependencies, float, slack, estimates, estimating, timeline, roadmap, kickoff, projects, sponsor, requirements, constraints, assumptions, closeout, initiation, cpm, network. The full list with plain-word meanings is in [keywords.md](keywords.md).
+PlanOmega, JennyEcho, OmnipotentCeo, planning, planner, charter, wbs, breakdown, schedule, scheduling, gantt, milestones, deadlines, risk, risks, mitigation, contingency, stakeholders, scope, objectives, smart, deliverables, tasks, dependencies, float, slack, estimates, estimating, timeline, roadmap, kickoff, projects, sponsor, requirements, constraints, assumptions, closeout, initiation, cpm, network. The full list with plain-word meanings is in [keywords.md](keywords.md).
 
 ## Credits
 - Inventor and publisher: Rob Domaine / Omnipotent Media LLC
 - Builder: Jenny Echo
-- Method drawn from the free open textbook Jenny Echo studied in Course 5: Adrienne Watt, *Project Management*, 2nd edition, BCcampus, CC BY 4.0 (four phases, SMART objectives, the sample project charter, requirement categories, the WBS 100 percent rule, dependencies and the critical path, risk ratings and responses, communication planning). Summarized in our own words; PlanPilot is independent and not endorsed by the author or BCcampus.
+- Method drawn from the free open textbook Jenny Echo studied in Course 5: Adrienne Watt, *Project Management*, 2nd edition, BCcampus, CC BY 4.0 (four phases, SMART objectives, the sample project charter, requirement categories, the WBS 100 percent rule, dependencies and the critical path, risk ratings and responses, communication planning). Summarized in our own words; PlanOmega is independent and not endorsed by the author or BCcampus.
 - The critical-path method itself (forward and backward pass) is a standard general technique.
 
 ## Rob Domaine's four pillars
@@ -42,9 +42,9 @@ PlanPilot, JennyEcho, OmnipotentCeo, planning, planner, charter, wbs, breakdown,
 4. Stay within the law and rules always: local, county, state, federal and platform rules.
 
 ## Components
-- `skills/planpilot-charter`: goal to SMART objective, charter, requirements and WBS.
-- `skills/planpilot-schedule`: schedule, critical path, risk list and communication plan.
-- `scripts/planpilot_cpm.py`: optional critical-path and risk-sorting helper (standard library only).
+- `skills/planomega-charter`: goal to SMART objective, charter, requirements and WBS.
+- `skills/planomega-schedule`: schedule, critical path, risk list and communication plan.
+- `scripts/planomega_cpm.py`: optional critical-path and risk-sorting helper (standard library only).
 - `examples/pluginpulse-v1.1/`: a real worked plan.
 - `tests/`: front-matter check and functional schedule test.
 - `rules/pillars-and-scope.mdc`: the pillars and scope.

@@ -1,5 +1,5 @@
 # PluginPulse v1.1 — Schedule, Risk Plan, Communication Plan (FINAL)
-Built per Watt Ch 10 (pp. 93-105), Ch 11 estimating (p. 108), Ch 16 (pp. 181-191), Ch 15 (pp. 175-180). Calculations: `schedule_cpm.py` (the same method as `scripts/planpilot_cpm.py`; it computes ES/EF/LS/LF. Those forward/backward-pass columns are a general CPM technique, **not** taught in Watt Ch 10, which identifies the critical path by tracing path lengths. I used both and they agree).
+Built per Watt Ch 10 (pp. 93-105), Ch 11 estimating (p. 108), Ch 16 (pp. 181-191), Ch 15 (pp. 175-180). Calculations: `schedule_cpm.py` (the same method as `scripts/planomega_cpm.py`; it computes ES/EF/LS/LF. Those forward/backward-pass columns are a general CPM technique, **not** taught in Watt Ch 10, which identifies the critical path by tracing path lengths. I used both and they agree).
 
 ## A. Schedule
 

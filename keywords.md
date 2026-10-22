@@ -1,10 +1,10 @@
-# PlanPilot search keywords
+# PlanOmega search keywords
 
-The same 40 keywords are stored in `.cursor-plugin/plugin.json` (`keywords`). They follow Rob's keyword rules (/workspace/keyword-rules.md, Oct 22, 2026): single words lowercase, joined words PascalCase, no hyphens, spaces or commas, specific to PlanPilot; the only shared ones are PlanPilot, JennyEcho and OmnipotentCeo. Joined words use PascalCase (rule 7); single words stay lowercase.
+The same 40 keywords are stored in `.cursor-plugin/plugin.json` (`keywords`). They follow Rob's keyword rules (/workspace/keyword-rules.md, Oct 22, 2026): single words lowercase, joined words PascalCase, no hyphens, spaces or commas, specific to PlanOmega; the only shared ones are PlanOmega, JennyEcho and OmnipotentCeo. Joined words use PascalCase (rule 7); single words stay lowercase.
 
 | Keyword | In plain words |
 |---|---|
-| PlanPilot | This plugin's name |
+| PlanOmega | This plugin's name |
 | JennyEcho | The builder, Jenny Echo |
 | OmnipotentCeo | Rob Domaine, CEO of Omnipotent Media |
 | planning | Planning a project |

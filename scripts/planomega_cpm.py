@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""PlanPilot schedule helper (standard library only).
-Usage: python3 scripts/planpilot_cpm.py PLAN.json
+"""PlanOmega schedule helper (standard library only).
+Usage: python3 scripts/planomega_cpm.py PLAN.json
 PLAN.json = {"unit": "hours", "tasks": {"A": {"name": "...", "duration": 3, "after": []}, ...},
              "risks": [{"risk": "...", "probability": "H|M|L", "impact": "H|M|L", "response": "..."}]}
 Prints the critical-path table (earliest/latest start and finish, float), the critical path(s),
