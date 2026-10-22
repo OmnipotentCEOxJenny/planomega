@@ -6,7 +6,7 @@ PlanPilot helps your AI assistant turn a goal into a project plan you can actual
 
 ## Project status: done, pending, uncertain
 **Done**
-- 2026-10-22: v1.0.0 built and pushed to GitHub. Local tests: manifest valid JSON and valid against Cursor's plugin schema, skill and rule front matter valid (`tests/check_frontmatter.py`), and `tests/test_cpm.py` confirms the schedule helper reproduces the PluginPulse v1.1 plan (164 hours, critical path D-F-G-H-I-J-K), passes a hand-checked self-test, and rejects a dependency loop.
+- 2026-10-22: v1.0.0 built and pushed (v1.0.1: keyword capitalization) to GitHub. Local tests: manifest valid JSON and valid against Cursor's plugin schema, skill and rule front matter valid (`tests/check_frontmatter.py`), and `tests/test_cpm.py` confirms the schedule helper reproduces the PluginPulse v1.1 plan (164 hours, critical path D-F-G-H-I-J-K), passes a hand-checked self-test, and rejects a dependency loop.
 
 **Pending**
 - Not tested inside Cursor or Grok yet (no in-app test has been done).
@@ -27,7 +27,7 @@ Install from this repository: https://github.com/OmnipotentCEOxJenny/planpilot (
 3. Compare with `examples/pluginpulse-v1.1/`.
 
 ## Search keywords
-planpilot, jennyecho, omnipotentceo, planning, planner, charter, wbs, breakdown, schedule, scheduling, gantt, milestones, deadlines, risk, risks, mitigation, contingency, stakeholders, scope, objectives, smart, deliverables, tasks, dependencies, float, slack, estimates, estimating, timeline, roadmap, kickoff, projects, sponsor, requirements, constraints, assumptions, closeout, initiation, cpm, network. The full list with plain-word meanings is in [keywords.md](keywords.md).
+PlanPilot, JennyEcho, OmnipotentCeo, planning, planner, charter, wbs, breakdown, schedule, scheduling, gantt, milestones, deadlines, risk, risks, mitigation, contingency, stakeholders, scope, objectives, smart, deliverables, tasks, dependencies, float, slack, estimates, estimating, timeline, roadmap, kickoff, projects, sponsor, requirements, constraints, assumptions, closeout, initiation, cpm, network. The full list with plain-word meanings is in [keywords.md](keywords.md).
 
 ## Credits
 - Inventor and publisher: Rob Domaine / Omnipotent Media LLC
