@@ -1,0 +1,97 @@
+{
+  "unit": "hours from Oct 22, 2026 00:00 ET",
+  "tasks": {
+    "A": {
+      "name": "1.1 Plan docs",
+      "duration": 13,
+      "after": []
+    },
+    "B": {
+      "name": "1.2 Charter approval (Rob)",
+      "duration": 21,
+      "after": [
+        "A"
+      ]
+    },
+    "D": {
+      "name": "2.1 Snapshots Oct 23-27",
+      "duration": 130,
+      "after": []
+    },
+    "E": {
+      "name": "2.2 Daily verification",
+      "duration": 130,
+      "after": []
+    },
+    "C": {
+      "name": "3.x Code fixes",
+      "duration": 2,
+      "after": [
+        "B"
+      ]
+    },
+    "F": {
+      "name": "4.1 Generate digest",
+      "duration": 2,
+      "after": [
+        "D",
+        "C"
+      ]
+    },
+    "G": {
+      "name": "4.2 Review/publish digest",
+      "duration": 2,
+      "after": [
+        "F"
+      ]
+    },
+    "H": {
+      "name": "5.1 Changelog/version",
+      "duration": 2,
+      "after": [
+        "G"
+      ]
+    },
+    "I": {
+      "name": "5.2 Tag v1.1.0",
+      "duration": 2,
+      "after": [
+        "H"
+      ]
+    },
+    "J": {
+      "name": "6.1 Closeout note",
+      "duration": 2,
+      "after": [
+        "I"
+      ]
+    },
+    "K": {
+      "name": "6.2 Sponsor acceptance",
+      "duration": 24,
+      "after": [
+        "J"
+      ]
+    }
+  },
+  "risks": [
+    {
+      "risk": "Snapshot job skips a day, so the 8th snapshot is late",
+      "probability": "M",
+      "impact": "H",
+      "response": "Mitigate: 10-minute wake-ups and a morning check"
+    },
+    {
+      "risk": "GitHub rate limit (60 requests/hour unauthenticated)",
+      "probability": "L",
+      "impact": "M",
+      "response": "Mitigate: keep each run under 50 requests"
+    },
+    {
+      "risk": "Rob is unavailable to approve",
+      "probability": "M",
+      "impact": "M",
+      "response": "Accept: approval has float"
+    }
+  ]
+}
