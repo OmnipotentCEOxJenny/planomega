@@ -1,7 +1,7 @@
 {
   "name": "planomega",
   "displayName": "PlanOmega",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Free helper that lets your AI assistant turn a goal into a clear project plan: a one-page charter, a task breakdown, a schedule that shows what must happen first, and a list of risks with what to do about each.",
   "author": {
     "name": "Rob Domaine / Omnipotent Media LLC"

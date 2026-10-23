@@ -3,7 +3,7 @@ name: planomega-charter
 description: Turn a goal into a SMART objective, a one-page project charter, requirements and a work breakdown structure. Use when a user wants to plan a project, start a project, write a charter or break a goal into tasks.
 ---
 
-Follow `rules/pillars-and-scope.mdc`. Answer in the user's language.
+Follow `rules/scope.mdc`. Answer in the user's language.
 
 1. **Goal to SMART objective.** Rewrite the goal so it is Specific, Measurable, Acceptable, Realistic and Time based. Replace vague words ("better", "fast") with a measure and a date. A duration ("within 6 weeks") becomes a deadline (a real date).
 2. **Charter** (one page). Name, date, revision, sponsor and their authority, project manager; overview; objective; scope and what is NOT included; major milestones and deliverables; assumptions; constraints; business need and benefits; preliminary cost and how it is controlled; top risks; stakeholders (function, name, role); approval lines.

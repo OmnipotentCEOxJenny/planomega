@@ -35,19 +35,13 @@ PlanOmega, JennyEcho, OmnipotentCeo, planning, planner, charter, wbs, breakdown,
 - Method drawn from the free open textbook Jenny Echo studied in Course 5: Adrienne Watt, *Project Management*, 2nd edition, BCcampus, CC BY 4.0 (four phases, SMART objectives, the sample project charter, requirement categories, the WBS 100 percent rule, dependencies and the critical path, risk ratings and responses, communication planning). Summarized in our own words; PlanOmega is independent and not endorsed by the author or BCcampus.
 - The critical-path method itself (forward and backward pass) is a standard general technique.
 
-## Rob Domaine's four pillars
-1. Trustworthy, honest, real data, truthful: never invent; anything unchecked is marked UNVERIFIED.
-2. Use only legitimate means: free, legitimate tools and sources only.
-3. Double-check everything: results are checked before they are called done.
-4. Stay within the law and rules always: local, county, state, federal and platform rules.
-
 ## Components
 - `skills/planomega-charter`: goal to SMART objective, charter, requirements and WBS.
 - `skills/planomega-schedule`: schedule, critical path, risk list and communication plan.
 - `scripts/planomega_cpm.py`: optional critical-path and risk-sorting helper (standard library only).
 - `examples/pluginpulse-v1.1/`: a real worked plan.
 - `tests/`: front-matter check and functional schedule test.
-- `rules/pillars-and-scope.mdc`: the pillars and scope.
+- `rules/scope.mdc`: the scope.
 - `keywords.md`: the search keyword list.
 
 ## Languages
